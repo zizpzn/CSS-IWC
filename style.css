@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  height: 110px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#header-wrap {
+  width: 175px;
+  height: 60px;
+}
+
+#title-l {
+  font-family: "Lora", serif;
+  font-size: 36px;
+}
+
+#title-s {
+  font-family: "Work Sans", sans-serif;
+}
+
+nav ul {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px 20px;
+  list-style: none;
+}
+
+.subtitle {
+  padding: 0px 14px;
+  font-style: bold;
+}
+
+.subtitle a {
+  text-decoration: none;
+  color: black;
+}
+
+#main-image {
+  background-image: url("./images/main.jpg");
+  background-position: 50% 70%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+}
+
+.main-image {
+  width: 100vw;
+  background-image: url("./images/main.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-1 {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-m {
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 32px;
+}
+
+.section-1 p {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.button-1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: 2px white solid;
+  padding: 15px 35px;
+}
+
+.button-1:hover {
+  color: white;
+  background-color: black;
+  border: 2px black solid;
+}
+
+.button-2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  border: 1px black solid;
+  padding: 15px 35px;
+}
+
+.button-2:hover {
+  color: white;
+  background-color: black;
+  border: 1px black solid;
+}
+
+.section-4 {
+  height: 75vh;
+  display: flex;
+  text-align: center;
+}
+
+.watch-list {
+  width: 33.33vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-image-1 {
+  width: 80%;
+  height: 45%;
+  background-image: url("./images/classic.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 64px;
+}
+
+.list-image-2 {
+  width: 80%;
+  height: 45%;
+  background-image: url("./images/pilot.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 64px;
+}
+
+.list-image-3 {
+  width: 80%;
+  height: 45%;
+  background-image: url("./images/sports.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 64px;
+}
+
+.section-2 {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-2 img {
+  width: 128px;
+  margin-bottom: 32px;
+}
+
+.section-2 h2 {
+  margin-bottom: 32px;
+}
+
+.section-2 p {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.section-3 {
+  height: 75vh;
+  background-color: #f7f7f7;
+  display: flex;
+  text-align: center;
+}
+
+.box {
+  width: 33.33vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h3 {
+  margin-bottom: 32px;
+}
+
+.box p {
+  font-size: 20px;
+}
